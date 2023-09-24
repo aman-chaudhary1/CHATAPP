@@ -26,6 +26,7 @@ public class Client extends JFrame {
     Socket socket;
     BufferedReader br;
     PrintWriter out;
+    int i;
 
     //Declare Component
      private JLabel heading =new JLabel("Client Area");
